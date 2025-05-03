@@ -1,0 +1,65 @@
+body {
+  display: flex;                
+  justify-content: center;     
+  align-items: center;          
+  height: 100vh;                
+  margin: 0;                    
+  background-color: #eddbff;    
+  }
+
+  /*login box*/
+.login-box{
+  width: 300px;
+  padding: 30px;
+  background-color: #d4d4d4;
+  border: 2px solid #c68eff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #c68eff;
+  margin: 0;
+}
+
+/*head text login-box*/
+.login-box h1{
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box h2{
+  text-align: left;
+  margin-bottom: 9px;
+  font-size: 18px;
+}
+
+
+
+
+/*input login datda*/
+.login-box input{
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px #b4b4b4;
+  border-radius: 5px;
+  color: rgb(26, 26, 26) !important;
+  font-size: 18px;
+}
+
+/*button*/
+.login-box button{
+  width: 100%;
+  padding: 10px;
+  background-color: #bf7fff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15;
+}
+
+/*option boutton > สีเข้มเมื่อชี้*/
+.login-box button:hover{
+  background-color: #a55bf0;
+}
+
