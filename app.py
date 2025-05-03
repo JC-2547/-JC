@@ -27,10 +27,10 @@ def dashboard():
 
 
 
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     server = Server(app.wsgi_app)
     server.watch('static/*.*')          # ตรวจจับไฟล์ใน static/
     server.watch('templates/*.*l')    # ตรวจจับ HTML
     server.watch('app.py')
 
-    server.serve()
+    server.serve()"""
