@@ -1,0 +1,99 @@
+body{
+  background-image: url(https://mywonderwheel.com/wp-content/uploads/2023/07/%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%81%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%87-Nissan-GT-R-%E0%B8%AD%E0%B8%AA%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%94%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B8%9A%E0%B8%99%E0%B8%B2%E0%B8%A1-Godzilla-%E0%B8%82%E0%B8%A7%E0%B8%B1%E0%B8%8D%E0%B9%83%E0%B8%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%82%E0%B8%A5%E0%B8%81.png);
+  background-size: cover;
+  background-position: top;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+/*TOP BAR*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topbar{
+  max-width: 1140;
+  margin: auto;
+}
+
+nav{
+  background: #000;
+  padding: 1rem;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.login{
+  margin: 0 1rem;
+}
+
+.login button{
+  margin: 8px;
+  color: rgb(0, 0, 0);
+  height: 25px;
+  width: 80px;
+  border-color: gray;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+/*LOG IN*/
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top:0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal-content input{
+  width: 100%;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+.modal-content button{
+  width: 100%;
+  padding: 10px;
+  margin: 8px auto;
+  cursor: pointer;
+}
+
+.closebtn{
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My_website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+    <!--TOP BAR-->
+    <nav>
+        <div class="topbar">
+          <div class="nav-bar">
+            <div class="logo">My website</div>
+            <div class="login">
+              <button id="signupbutton">Sign up</button>
+              <button id="loginbutton">Login</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <!--LOGIN BUTTON-->
+    <div class="modal" id="loginModal">
+      <div class="modal-content">
+        <span class="closebtn" id="closebtn">&times;</span>
+        <h2 id="formTitle">Log in</h2>
+
+        <!--LOGIN FORM-->
+        <form id="loginForm">
+          <label>Username:</label>
+          <input type="text" name="username" required>
+          <label>Password:</label>
+          <input type="password" name="password" required>
+          <button type="submit">Login</button>
+        </form>
+
+        <!--SIGN UP BUTTON-->
+        <form id="signupForm" style="display: none;">
+          <label>Username:</label>
+          <input type="text" name="username" required>
+          <label>Email:</label>
+          <input type="email" name="email" required>
+          <label>Password:</label>
+          <input type="password" name="password" required>
+          <label>Confirm Password:</label>
+          <input type="password" name="confirm" required>
+          <button type="submit">Sign Up</button>
+        </form>
+
+      </div>
+    </div>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+  </body>
+</html>
