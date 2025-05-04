@@ -1,3 +1,0 @@
-function sayHi() {
-    alert("สวัสดีครับ!");
-  }
