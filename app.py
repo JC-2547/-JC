@@ -1,5 +1,4 @@
-from flask import Flask, render_template, request
-from livereload import Server
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -21,7 +20,3 @@ def login():
 
 if __name__ == '__main__':
     server = Server(app.wsgi_app)
-    server.watch('templates/*.*')
-    server.watch('static/*.*')
-    server.watch('app.py')
-    server.serve()
